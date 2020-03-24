@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="684e29c6-0a7a-43e6-9595-3c54a9af676d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZTj1lKLwKKXyGnygtarH5kw2yd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/BrowserDriver" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Toshiba\Downloads\NopComPageObjectModal1\src\test\resources\BrowserDriver" />
+      <recent name="C:\Users\Toshiba\Downloads\NopComPageObjectModal1\src\test\resources\BrowserDriver\" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully">
+    <configuration name="TestSuit.registeredUserShouldBeAbleToReferAProductTOAFriend" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopComPageObjectModal1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NopComPageObjectModal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NopComPageObjectModal" />
+      <option name="MAIN_CLASS_NAME" value="NopComPageObjectModal.TestSuit" />
+      <option name="METHOD_NAME" value="registeredUserShouldBeAbleToReferAProductTOAFriend" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.userShouldAbleToRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopComPageObjectModal1" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NopComPageObjectModal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="NopComPageObjectModal" />
+      <option name="MAIN_CLASS_NAME" value="NopComPageObjectModal.TestSuit" />
+      <option name="METHOD_NAME" value="userShouldAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TestSuit.registeredUserShouldBeAbleToReferAProductTOAFriend" />
+      <item itemvalue="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully" />
+        <item itemvalue="TestNG.TestSuit.registeredUserShouldBeAbleToReferAProductTOAFriend" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="684e29c6-0a7a-43e6-9595-3c54a9af676d" name="Default Changelist" comment="" />
+      <created>1584869764643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584869764643</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585079273864">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="1780" y="-21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584900791389" />
+    <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585079273864" />
+    <state x="2042" y="127" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584885928154">
+      <screen x="1366" y="-256" width="1920" height="1160" />
+    </state>
+    <state x="2042" y="127" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584885928154" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1584982848198">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1877" height="429" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584900823760" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584982848198" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1584982848198">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1877" height="429" key="GridCell.Tab.0.center/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584900823760" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584982848198" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1584982848198">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1877" height="429" key="GridCell.Tab.0.left/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584900823760" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584982848198" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1584982848198">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1877" height="429" key="GridCell.Tab.0.right/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584900823760" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584982848198" />
+    <state x="150" y="-965" key="Maven.ArtifactSearchDialog" timestamp="1584879990115">
+      <screen x="-340" y="-1200" width="1920" height="1160" />
+    </state>
+    <state x="150" y="-965" key="Maven.ArtifactSearchDialog/0.0.1366.728/-340.-1200.1920.1160@-340.-1200.1920.1160" timestamp="1584879990115" />
+    <state x="1856" y="-21" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584869986163" />
+    <state x="467" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584993900465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="467" y="254" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-256.1920.1160@0.0.1366.728" timestamp="1584993900465" />
+    <state x="2022" y="148" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584885607531" />
+    <state x="65" y="66" key="new project wizard" timestamp="1584958895232">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="66" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584958895232" />
+  </component>
+</project>

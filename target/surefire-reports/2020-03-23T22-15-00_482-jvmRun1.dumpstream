@@ -1,0 +1,93 @@
+# Created at 2020-03-23T22:15:10.720
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-03-23T22:15:18.938
+Unexpected IOException: 8,1,NopComPageObjectModal.TestSuit,openBrowser(NopComPageObjectModal.TestSuit),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DLF0C8J'\002C ip: '192.168.0.80'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x00E5A113+1548563]\000A\0009Ordinal0 [0x00DDDDA1+1039777]\000A\0009Ordinal0 [0x00D5E32E+516910]\000A\0009Ordinal0 [0x00D58012+491538]\000A\0009Ordinal0 [0x00D586EB+493291]\000A\0009Ordinal0 [0x00D59855+497749]\000A\0009Ordinal0 [0x00D55885+481413]\000A\0009Ordinal0 [0x00D5F0D0+520400]\000A\0009Ordinal0 [0x00D0C030+180272]\000A\0009Ordinal0 [0x00D0B59D+177565]\000A\0009Ordinal0 [0x00D095FB+169467]\000A\0009Ordinal0 [0x00CF160A+71178]\000A\0009Ordinal0 [0x00CF2690+75408]\000A\0009Ordinal0 [0x00CF2629+75305]\000A\0009Ordinal0 [0x00DF71B7+1143223]\000A\0009GetHandleVerifier [0x00EF2B46+507814]\000A\0009GetHandleVerifier [0x00EF2864+507076]\000A\0009GetHandleVerifier [0x00EF9F47+537511]\000A\0009GetHandleVerifier [0x00EF3402+510050]\000A\0009Ordinal0 [0x00DEF29C+1110684]\000A\0009Ordinal0 [0x00DF938B+1151883]\000A\0009Ordinal0 [0x00DF94F3+1152243]\000A\0009Ordinal0 [0x00DF83F5+1147893]\000A\0009BaseThreadInitThunk [0x76E46359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B44+180]\000A,null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DLF0C8J'\002C ip: '192.168.0.80'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x00E5A113+1548563]\000A\0009Ordinal0 [0x00DDDDA1+1039777]\000A\0009Ordinal0 [0x00D5E32E+516910]\000A\0009Ordinal0 [0x00D58012+491538]\000A\0009Ordinal0 [0x00D586EB+493291]\000A\0009Ordinal0 [0x00D59855+497749]\000A\0009Ordinal0 [0x00D55885+481413]\000A\0009Ordinal0 [0x00D5F0D0+520400]\000A\0009Ordinal0 [0x00D0C030+180272]\000A\0009Ordinal0 [0x00D0B59D+177565]\000A\0009Ordinal0 [0x00D095FB+169467]\000A\0009Ordinal0 [0x00CF160A+71178]\000A\0009Ordinal0 [0x00CF2690+75408]\000A\0009Ordinal0 [0x00CF2629+75305]\000A\0009Ordinal0 [0x00DF71B7+1143223]\000A\0009GetHandleVerifier [0x00EF2B46+507814]\000A\0009GetHandleVerifier [0x00EF2864+507076]\000A\0009GetHandleVerifier [0x00EF9F47+537511]\000A\0009GetHandleVerifier [0x00EF3402+510050]\000A\0009Ordinal0 [0x00DEF29C+1110684]\000A\0009Ordinal0 [0x00DF938B+1151883]\000A\0009Ordinal0 [0x00DF94F3+1152243]\000A\0009Ordinal0 [0x00DF83F5+1147893]\000A\0009BaseThreadInitThunk [0x76E46359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B44+180]\000A,TestSuit>BaseTest.openBrowser:14 \00BB SessionNotCreated session not created\000Afrom ...,org.openqa.selenium.SessionNotCreatedException: \000Asession not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DLF0C8J'\002C ip: '192.168.0.80'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x00E5A113+1548563]\000A\0009Ordinal0 [0x00DDDDA1+1039777]\000A\0009Ordinal0 [0x00D5E32E+516910]\000A\0009Ordinal0 [0x00D58012+491538]\000A\0009Ordinal0 [0x00D586EB+493291]\000A\0009Ordinal0 [0x00D59855+497749]\000A\0009Ordinal0 [0x00D55885+481413]\000A\0009Ordinal0 [0x00D5F0D0+520400]\000A\0009Ordinal0 [0x00D0C030+180272]\000A\0009Ordinal0 [0x00D0B59D+177565]\000A\0009Ordinal0 [0x00D095FB+169467]\000A\0009Ordinal0 [0x00CF160A+71178]\000A\0009Ordinal0 [0x00CF2690+75408]\000A\0009Ordinal0 [0x00CF2629+75305]\000A\0009Ordinal0 [0x00DF71B7+1143223]\000A\0009GetHandleVerifier [0x00EF2B46+507814]\000A\0009GetHandleVerifier [0x00EF2864+507076]\000A\0009GetHandleVerifier [0x00EF9F47+537511]\000A\0009GetHandleVerifier [0x00EF3402+510050]\000A\0009Ordinal0 [0x00DEF29C+1110684]\000A\0009Ordinal0 [0x00DF938B+1151883]\000A\0009Ordinal0 [0x00DF94F3+1152243]\000A\0009Ordinal0 [0x00DF83F5+1147893]\000A\0009BaseThreadInitThunk [0x76E46359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B44+180]\000A\000A
+
+
+# Created at 2020-03-23T22:15:18.938
+Unexpected IOException: 5,1,NopComPageObjectModal.TestSuit,nonRegisteredUserShouldNotBeAbleToReferAProductToAFriend(NopComPageObjectModal.TestSuit),NopComPageObjectModal.TestSuit,null,null
+
+
+# Created at 2020-03-23T22:15:18.953
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,nonRegisteredUserShouldNotBeAbleToReferAProductToAFriend(NopComPageObjectModal.TestSuit),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DLF0C8J'\002C ip: '192.168.0.80'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x00E5A113+1548563]\000A\0009Ordinal0 [0x00DDDDA1+1039777]\000A\0009Ordinal0 [0x00D5E32E+516910]\000A\0009Ordinal0 [0x00D58012+491538]\000A\0009Ordinal0 [0x00D586EB+493291]\000A\0009Ordinal0 [0x00D59855+497749]\000A\0009Ordinal0 [0x00D55885+481413]\000A\0009Ordinal0 [0x00D5F0D0+520400]\000A\0009Ordinal0 [0x00D0C030+180272]\000A\0009Ordinal0 [0x00D0B59D+177565]\000A\0009Ordinal0 [0x00D095FB+169467]\000A\0009Ordinal0 [0x00CF160A+71178]\000A\0009Ordinal0 [0x00CF2690+75408]\000A\0009Ordinal0 [0x00CF2629+75305]\000A\0009Ordinal0 [0x00DF71B7+1143223]\000A\0009GetHandleVerifier [0x00EF2B46+507814]\000A\0009GetHandleVerifier [0x00EF2864+507076]\000A\0009GetHandleVerifier [0x00EF9F47+537511]\000A\0009GetHandleVerifier [0x00EF3402+510050]\000A\0009Ordinal0 [0x00DEF29C+1110684]\000A\0009Ordinal0 [0x00DF938B+1151883]\000A\0009Ordinal0 [0x00DF94F3+1152243]\000A\0009Ordinal0 [0x00DF83F5+1147893]\000A\0009BaseThreadInitThunk [0x76E46359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B44+180]\000A,null
+
+
+# Created at 2020-03-23T22:15:18.953
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,closeBrowser(NopComPageObjectModal.TestSuit),null,null,null
+
+
+# Created at 2020-03-23T22:15:18.953
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,openBrowser(NopComPageObjectModal.TestSuit),null,null,null
+
+
+# Created at 2020-03-23T22:15:18.953
+Unexpected IOException: 5,1,NopComPageObjectModal.TestSuit,registeredUserShouldBeAbleToReferAProductTOAFriend(NopComPageObjectModal.TestSuit),NopComPageObjectModal.TestSuit,null,null
+
+
+# Created at 2020-03-23T22:15:18.953
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,registeredUserShouldBeAbleToReferAProductTOAFriend(NopComPageObjectModal.TestSuit),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DLF0C8J'\002C ip: '192.168.0.80'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x00E5A113+1548563]\000A\0009Ordinal0 [0x00DDDDA1+1039777]\000A\0009Ordinal0 [0x00D5E32E+516910]\000A\0009Ordinal0 [0x00D58012+491538]\000A\0009Ordinal0 [0x00D586EB+493291]\000A\0009Ordinal0 [0x00D59855+497749]\000A\0009Ordinal0 [0x00D55885+481413]\000A\0009Ordinal0 [0x00D5F0D0+520400]\000A\0009Ordinal0 [0x00D0C030+180272]\000A\0009Ordinal0 [0x00D0B59D+177565]\000A\0009Ordinal0 [0x00D095FB+169467]\000A\0009Ordinal0 [0x00CF160A+71178]\000A\0009Ordinal0 [0x00CF2690+75408]\000A\0009Ordinal0 [0x00CF2629+75305]\000A\0009Ordinal0 [0x00DF71B7+1143223]\000A\0009GetHandleVerifier [0x00EF2B46+507814]\000A\0009GetHandleVerifier [0x00EF2864+507076]\000A\0009GetHandleVerifier [0x00EF9F47+537511]\000A\0009GetHandleVerifier [0x00EF3402+510050]\000A\0009Ordinal0 [0x00DEF29C+1110684]\000A\0009Ordinal0 [0x00DF938B+1151883]\000A\0009Ordinal0 [0x00DF94F3+1152243]\000A\0009Ordinal0 [0x00DF83F5+1147893]\000A\0009BaseThreadInitThunk [0x76E46359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B44+180]\000A,null
+
+
+# Created at 2020-03-23T22:15:18.953
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,closeBrowser(NopComPageObjectModal.TestSuit),null,null,null
+
+
+# Created at 2020-03-23T22:15:18.953
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,openBrowser(NopComPageObjectModal.TestSuit),null,null,null
+
+
+# Created at 2020-03-23T22:15:18.953
+Unexpected IOException: 5,1,NopComPageObjectModal.TestSuit,userShouldAbleToRegisterSuccessfully(NopComPageObjectModal.TestSuit),NopComPageObjectModal.TestSuit,null,null
+
+
+# Created at 2020-03-23T22:15:18.953
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,userShouldAbleToRegisterSuccessfully(NopComPageObjectModal.TestSuit),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DLF0C8J'\002C ip: '192.168.0.80'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x00E5A113+1548563]\000A\0009Ordinal0 [0x00DDDDA1+1039777]\000A\0009Ordinal0 [0x00D5E32E+516910]\000A\0009Ordinal0 [0x00D58012+491538]\000A\0009Ordinal0 [0x00D586EB+493291]\000A\0009Ordinal0 [0x00D59855+497749]\000A\0009Ordinal0 [0x00D55885+481413]\000A\0009Ordinal0 [0x00D5F0D0+520400]\000A\0009Ordinal0 [0x00D0C030+180272]\000A\0009Ordinal0 [0x00D0B59D+177565]\000A\0009Ordinal0 [0x00D095FB+169467]\000A\0009Ordinal0 [0x00CF160A+71178]\000A\0009Ordinal0 [0x00CF2690+75408]\000A\0009Ordinal0 [0x00CF2629+75305]\000A\0009Ordinal0 [0x00DF71B7+1143223]\000A\0009GetHandleVerifier [0x00EF2B46+507814]\000A\0009GetHandleVerifier [0x00EF2864+507076]\000A\0009GetHandleVerifier [0x00EF9F47+537511]\000A\0009GetHandleVerifier [0x00EF3402+510050]\000A\0009Ordinal0 [0x00DEF29C+1110684]\000A\0009Ordinal0 [0x00DF938B+1151883]\000A\0009Ordinal0 [0x00DF94F3+1152243]\000A\0009Ordinal0 [0x00DF83F5+1147893]\000A\0009BaseThreadInitThunk [0x76E46359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B44+180]\000A,null
+
+
+# Created at 2020-03-23T22:15:18.953
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,closeBrowser(NopComPageObjectModal.TestSuit),null,null,null
+
+
+# Created at 2020-03-23T22:15:18.969
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,openBrowser(NopComPageObjectModal.TestSuit),null,null,null
+
+
+# Created at 2020-03-23T22:15:18.969
+Unexpected IOException: 5,1,NopComPageObjectModal.TestSuit,userShouldBeAbleToCompareTwoDifferentProductSuccessfully(NopComPageObjectModal.TestSuit),NopComPageObjectModal.TestSuit,null,null
+
+
+# Created at 2020-03-23T22:15:18.969
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,userShouldBeAbleToCompareTwoDifferentProductSuccessfully(NopComPageObjectModal.TestSuit),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DLF0C8J'\002C ip: '192.168.0.80'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x00E5A113+1548563]\000A\0009Ordinal0 [0x00DDDDA1+1039777]\000A\0009Ordinal0 [0x00D5E32E+516910]\000A\0009Ordinal0 [0x00D58012+491538]\000A\0009Ordinal0 [0x00D586EB+493291]\000A\0009Ordinal0 [0x00D59855+497749]\000A\0009Ordinal0 [0x00D55885+481413]\000A\0009Ordinal0 [0x00D5F0D0+520400]\000A\0009Ordinal0 [0x00D0C030+180272]\000A\0009Ordinal0 [0x00D0B59D+177565]\000A\0009Ordinal0 [0x00D095FB+169467]\000A\0009Ordinal0 [0x00CF160A+71178]\000A\0009Ordinal0 [0x00CF2690+75408]\000A\0009Ordinal0 [0x00CF2629+75305]\000A\0009Ordinal0 [0x00DF71B7+1143223]\000A\0009GetHandleVerifier [0x00EF2B46+507814]\000A\0009GetHandleVerifier [0x00EF2864+507076]\000A\0009GetHandleVerifier [0x00EF9F47+537511]\000A\0009GetHandleVerifier [0x00EF3402+510050]\000A\0009Ordinal0 [0x00DEF29C+1110684]\000A\0009Ordinal0 [0x00DF938B+1151883]\000A\0009Ordinal0 [0x00DF94F3+1152243]\000A\0009Ordinal0 [0x00DF83F5+1147893]\000A\0009BaseThreadInitThunk [0x76E46359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B44+180]\000A,null
+
+
+# Created at 2020-03-23T22:15:18.969
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,closeBrowser(NopComPageObjectModal.TestSuit),null,null,null
+
+
+# Created at 2020-03-23T22:15:18.969
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,openBrowser(NopComPageObjectModal.TestSuit),null,null,null
+
+
+# Created at 2020-03-23T22:15:18.969
+Unexpected IOException: 5,1,NopComPageObjectModal.TestSuit,userShouldBeAbleToSortProductHighToLowByPrice(NopComPageObjectModal.TestSuit),NopComPageObjectModal.TestSuit,null,null
+
+
+# Created at 2020-03-23T22:15:18.969
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,userShouldBeAbleToSortProductHighToLowByPrice(NopComPageObjectModal.TestSuit),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=80.0.3987.149)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DLF0C8J'\002C ip: '192.168.0.80'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x00E5A113+1548563]\000A\0009Ordinal0 [0x00DDDDA1+1039777]\000A\0009Ordinal0 [0x00D5E32E+516910]\000A\0009Ordinal0 [0x00D58012+491538]\000A\0009Ordinal0 [0x00D586EB+493291]\000A\0009Ordinal0 [0x00D59855+497749]\000A\0009Ordinal0 [0x00D55885+481413]\000A\0009Ordinal0 [0x00D5F0D0+520400]\000A\0009Ordinal0 [0x00D0C030+180272]\000A\0009Ordinal0 [0x00D0B59D+177565]\000A\0009Ordinal0 [0x00D095FB+169467]\000A\0009Ordinal0 [0x00CF160A+71178]\000A\0009Ordinal0 [0x00CF2690+75408]\000A\0009Ordinal0 [0x00CF2629+75305]\000A\0009Ordinal0 [0x00DF71B7+1143223]\000A\0009GetHandleVerifier [0x00EF2B46+507814]\000A\0009GetHandleVerifier [0x00EF2864+507076]\000A\0009GetHandleVerifier [0x00EF9F47+537511]\000A\0009GetHandleVerifier [0x00EF3402+510050]\000A\0009Ordinal0 [0x00DEF29C+1110684]\000A\0009Ordinal0 [0x00DF938B+1151883]\000A\0009Ordinal0 [0x00DF94F3+1152243]\000A\0009Ordinal0 [0x00DF83F5+1147893]\000A\0009BaseThreadInitThunk [0x76E46359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B74+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77D07B44+180]\000A,null
+
+
+# Created at 2020-03-23T22:15:18.969
+Unexpected IOException: 9,1,NopComPageObjectModal.TestSuit,closeBrowser(NopComPageObjectModal.TestSuit),null,null,null
+
+
+# Created at 2020-03-23T22:15:19.188
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,TestSuite,null,null,null
+
+
